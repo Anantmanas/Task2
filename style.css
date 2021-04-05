@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background:#111;
+    background-position: center;
+    background-size: cover;
+    font-family:sans-serif;
+
+}
+.container{
+    width: 500px;
+    height: 600px;
+    display: inline-block;
+    
+}
+
+.contact-title{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #fff;
+    border-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.column .text{
+    font-size: 40px;
+}
